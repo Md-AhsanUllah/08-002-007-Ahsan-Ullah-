@@ -74,12 +74,13 @@ table{
     margin: 10px 0;
 	
 }
-table:hover{
+th:hover{
 	background-color:                                        rgb(248, 138, 5);
 }
 th, td{
 	border:2px solid black;
-	padding:0 15px;
+	padding:10px;
+    text-align: left;
 }
 th{
 	background-color:#44bd32;
@@ -87,7 +88,10 @@ th{
 	
 }
 td{
-	background-color:#f4f4f4;
+	background-color:#ced6e0;
+}
+td:hover{
+    background-color: #747d8c;
 }
 
 #submit{
