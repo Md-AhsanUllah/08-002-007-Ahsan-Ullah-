@@ -4,13 +4,13 @@ body{
 	width:100%;
 }
 div{
-	width:70%;
+	width:80%;
 	background-color:white;
-	margin:10px auto;
+	margin:5px auto;
 }
 nav{
 	text-align:center;
-	padding:10px 20px;
+	padding:10px 0;
 	color:#16a085;
 	background-color:#2c3e50;
 	margin:0 auto;
@@ -18,7 +18,7 @@ nav{
 }
 nav ul{
     list-style: none;
-    padding:0;
+    padding:10px 0;
     margin:0;
     display: flex;
     justify-content: center;
@@ -32,8 +32,15 @@ nav ul li a{
     text-decoration: none;
     
 }
+nav ul li a:hover{
+	
+}
+main{
+	padding: 0 5px;
+}
 section{
-    margin:10px 0;
+    margin-bottom: 20px;
+	padding: 0 5px;
     
    
 }
@@ -51,8 +58,9 @@ img{
 }
 header{
 	text-align:center;
-	margin:0 auto;
+	margin-bottom:0px;
 	padding-top: 10px;
+	padding-bottom: 0;
 	background-color: darkolivegreen;
 
 }
@@ -95,10 +103,14 @@ td:hover{
 }
 
 #submit{
-	border:0px;
+	border:none;
 	width:100%;
 	background-color:#44bd32;
 	color:white;
+	padding: 10px;
+}
+#submit:hover{
+	background-color: #2d6125;
 }
 input{
 	width:100%;
@@ -109,7 +121,9 @@ textarea{
 }
 footer{
 	text-align:center;
-	background-color:#04f918;
+	background-color:#3c7b0d;
 	color:white;
-	margin:20px auto;
+	margin:10px auto;
+	padding: 20px;
+	font-size: 20px;
 }
